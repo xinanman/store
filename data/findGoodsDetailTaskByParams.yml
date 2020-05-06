@@ -1,0 +1,25 @@
+sammary:
+    description: testcase description
+    host: ''
+    name: testcase title
+testcases:
+-   name: /dal_task_system_cur_server/server/taskSystemCurController/findGoodsDetailTaskByParams
+    request:
+        headers:
+            Postman-Token: 7bd34775-a989-4568-9451-2298c02de4d8
+            User-Agent: PostmanRuntime/7.23.0
+            clientid: 799be7679501b2132d440f107a3c30b0c484c5b6
+            platform: ios
+            uid: 0700000601240078008006244
+            utoken: 19216875202-18627-bb2f9070-989a-4c5a-8030-dcf82f00710d
+        method: GET
+        params:
+            sku: '111111'
+        url: http://t.xc.qa.daling.com/dal_task_system_cur_server/server/taskSystemCurController/findGoodsDetailTaskByParams
+    validate:
+        expectData:
+            data: null
+            errorMsg: 全部成功
+            status: 0
+            success: true
+        status_code: 200
